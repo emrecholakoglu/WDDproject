@@ -1,0 +1,49 @@
+<!-- Emre Cholakoglu 24775049 Nci Wdd retake-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- meta used for alfhabet--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+  <!-- title of the tab-->
+  <title>Quiz Game</title>
+  <!-- linked to css-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- Navigation bar of all pages on top-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Main Page</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="form.html">Contact</a></li>
+      <li><a href="quiz.html">Quiz Game</a></li>
+      <li><a href="selfaw.html">Self Awareness</a></li>
+      <li><a href="pdev.html">Personal Development</a></li>
+    </ul>
+  </nav>
+<!-- quiz question section, section used for css styling. id used for js. and a button to go on next question -->
+  <main>
+    <section class="quiz-section">
+      <h2>Quiz</h2>
+      <p id="question"></p>
+      <div id="choices"></div>
+      <p id="feedback"></p>
+      <!-- button "next"-->
+      <button onclick="nextQuestion()">Next</button>
+
+    </section>
+
+  </main>
+<!-- footer-->
+  <footer>
+    <p>© 2025 Emre Cholakoglu | National College of Ireland</p>
+  </footer>
+<!-- js linked-->
+  <script src="script.js"></script>
+  
+</body>
+</html>

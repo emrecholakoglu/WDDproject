@@ -1,0 +1,62 @@
+<!-- Emre Cholakoglu 
+24775049 WDD Retake -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!--compatibility for mobile and other devices and alfhabet for website and links css-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Emre Cholakoglu">
+	<meta name="description" content="Contact form for Benefit of Education Website">
+<!-- title of tab-->
+	<title>Contact Form</title>
+<!-- linked css to html -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<!-- Navigation bar on top is same on every page on my website created with unordered list-->
+	<nav>
+		<ul>
+			<li><a href="index.html">Main Page</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="form.html">Contact</a></li>
+			<li><a href="quiz.html">Quiz Game</a></li>
+			<li><a href="selfaw.html">Self Awarness</a></li>
+			<li><a href="pdev.html">Personal Development</a></li>
+		</ul>
+	</nav>
+<!-- Form section is here it is linked to css with class name-->
+	<main>
+		<section class="form-section">
+			<h2>Contact Us</h2>
+			<p>If you have any questions or feedback, please fill out the form below.</p>
+<!-- This form receives users informations, type is depends but when entered for example email may be checked on browser if it is on correct type. And place holder is the text in the text box, when user starts typing it disappears. -->
+			<form>
+				<label for="name">Your Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name here">
+
+				<label for="email">Your Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email here">
+
+				<label for="number">Your Phone Number:</label>
+				<input type="number" id="number" name="number" placeholder="Enter your phone number here">
+<!-- here one different thing rows makes bigger text box to make sure that users have enough space to type their message also they feel more free to type-->
+				<label for="message">Your Message:</label>
+				<textarea id="message" name="message" rows="6" placeholder="Write your message here..."></textarea>
+<!-- used input to create send message button-->
+				<input type="submit" value="Send Message">
+			</form>
+		</section>
+	</main>
+
+	<!-- footer same on every page, below the pages -->
+	<footer>
+		<p>© 2025 Emre Cholakoglu | National College of Ireland</p>
+	</footer>
+<!-- linked java script-->
+	<script src="script.js"></script>
+</body>
+</html>

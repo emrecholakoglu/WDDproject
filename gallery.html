@@ -1,0 +1,72 @@
+<!-- Emre Cholakoglu 24775049-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--compatibility for mobile and other devices and alfhabet for website. meta tags to have better results on internet browsers-->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author"content="Emre Cholakoglu">
+	<meta name="description"content="Gallery of Education is benefit">
+<!-- title of the tab-page -->
+	<title>Gallery</title>
+<!-- linked to css-->
+	<link rel="stylesheet"href="style.css">
+
+</head>
+<body>
+	<!-- Navigation bar on top of the page-->
+	<nav>
+			<ul>
+				<li><a href="index.html">Main Page</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="form.html">Contact</a></li>
+				<li><a href="quiz.html">Quiz Game</a></li>
+				<li><a href="selfaw.html">Self Awarness</a></li>
+				<li><a href="pdev.html">Personal Development</a></li>
+
+			</ul>
+		</nav>
+
+<main>
+<!-- section is to style on css-->
+	<section class="gallery-sec">
+
+		<h2>Gallery</h2>
+		<p>Visual Corner</p>
+<!--Source of photos and short textes under them-->
+		<div class="gallery">
+<!-- togglesize links to js to make photo bigger when user clicks photo-->
+			<div class="imagebox">
+				<img src="gallery/mind.jpg" onclick="togglesize(this)" alt="Brain photos">
+				<p>Would you know how brain works?</p>
+		</div>		
+		<div class="imagebox">
+			<img src="gallery/pdevo.jpg" onclick="togglesize(this)" alt="personal development photos">
+
+			<p>Would you improve your skills?</p>
+		</div>
+		<div class="imagebox">
+			<img src="gallery/self.jpg" onclick="togglesize(this)" alt="self awareness photos">
+			<p>Do you trust yourself?</p>
+		</div>
+		<div class="imagebox">
+			<img src="gallery/edu.jpg" onclick="togglesize(this)" alt="education photos">
+			<p>Do you believe education is first?</p>
+		</div>
+
+	</div>
+
+	</section>
+	
+</main>
+<!-- footer-->
+<footer>
+  <p>© 2025 Emre Cholakoglu | National College of Ireland</p>
+</footer>
+<!-- js linked-->
+<script src="script.js"></script>
+
+</body>
+</html>

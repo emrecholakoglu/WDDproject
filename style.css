@@ -1,0 +1,244 @@
+/*NAVIGATION BAR*/
+nav ul {
+  list-style: none;             
+  text-align: center;
+  background-color: #3202FA;    
+  padding: 17px;
+  margin: 10px 0;
+}
+/* makes navs horizontal and space between them*/
+nav ul li {
+  display: inline-block;       
+  margin: 0 15px;
+}
+/* settings of navs*/
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* color when mouse is on navs */
+nav ul li a:hover {
+  color: #56CAF5;             
+}
+
+/* Heading 1 */
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arial',sans-serif;
+  color: #000000;
+  font-size: 45px;
+
+}
+/* heading 2*/
+h2 {
+  text-align: center;         
+  color: #003366;            
+  font-size: 25px;         
+  margin-top: 65px;          
+  margin-bottom: 20px;
+}
+
+
+/* info 1 */
+.info1 {
+  font-size: 17px;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: 'Arial',sans-serif;
+}
+
+/* info box (h2 and info1) */
+.info-box{
+  background-color: #f0f8ff;
+  border: 2px solid #3202FA;
+  border-radius: 12px;
+  padding: 30px 40px;     
+  margin: 30px auto;
+  max-width: 850px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+/* button and button info */
+.button-part {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.button-part h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #003366;
+  line-height: 1.5;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center; 
+}
+
+ 
+
+
+/* button centered, wrapped in a container... */
+.start-button {
+  background-color: #3202FA;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+
+.start-button:hover{
+  color: #56CAF5;
+}
+
+
+
+
+/* buttons text color when mouse is on*/
+.start-button:hover{
+  color: #56CAF5;
+}
+/*footer*/
+footer {
+  background-color: #3202FA;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+/* GALLERY CSS */
+/* It wraps the photos and design for the texts under photos*/
+
+.gallery-sec {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imagebox {
+  width: 250px;
+  border: 2px solid #3202FA;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.imagebox img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.imagebox p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* contact form css */
+
+/* css */
+
+form {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+/* style of submit button */
+input[type="submit"] {
+  background-color: #3a6cf4;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* color changes when mouse is on the button */
+input[type="submit"]:hover {
+  background-color: #274bd6;
+}
+/* centre the text */
+.form-section p {
+  text-align: center;
+}
+
+/* self awarness css */
+
+.info-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30px auto;
+  width: 70%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* quiz css */
+.quiz-section {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.quiz-section button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.tip-section{
+  text-align: center;
+  font-weight: bold;
+  }
+
