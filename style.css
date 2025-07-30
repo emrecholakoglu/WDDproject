@@ -1,4 +1,4 @@
-/*NAVIGATION BAR*/
+/*NAVIGATION BAR- removes dots fot the list and centres,color some styles*/
 nav ul {
   list-style: none;             
   text-align: center;
@@ -6,23 +6,23 @@ nav ul {
   padding: 17px;
   margin: 10px 0;
 }
-/* makes navs horizontal and space between them*/
+/* makes navigation elements horizontal and space between them*/
 nav ul li {
   display: inline-block;       
   margin: 0 15px;
 }
-/* settings of navs*/
+/* settings of navs, color of the texts bold and no line below*/
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-/* color when mouse is on navs */
+/* color affect when mouse is on navigation texts */
 nav ul li a:hover {
   color: #56CAF5;             
 }
 
-/* Heading 1 */
+/* Heading 1 style*/
 
 h1{
   text-align: center;
@@ -32,7 +32,7 @@ h1{
   font-size: 45px;
 
 }
-/* heading 2*/
+/* heading 2 style*/
 h2 {
   text-align: center;         
   color: #003366;            
@@ -42,7 +42,7 @@ h2 {
 }
 
 
-/* info 1 */
+/* info 1 style,centres some color and limited width...*/
 .info1 {
   font-size: 17px;
   color: #333;
@@ -53,7 +53,7 @@ h2 {
   font-family: 'Arial',sans-serif;
 }
 
-/* info box (h2 and info1) */
+/* info box (h2 and info1) the box line around them.background color, shadow...  */
 .info-box{
   background-color: #f0f8ff;
   border: 2px solid #3202FA;
@@ -64,6 +64,8 @@ h2 {
   box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
   text-align: center;
 }
+
+
 /* button and button info */
 .button-part {
   max-width: 750px;
@@ -87,7 +89,7 @@ h2 {
  
 
 
-/* button centered, wrapped in a container... */
+/* button centered, wrapped in a container... some styles on them */
 .start-button {
   background-color: #3202FA;
   color: white;
@@ -99,19 +101,13 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s ease;
   }
-
+/* color affect when mouse is on */
 .start-button:hover{
   color: #56CAF5;
 }
 
 
-
-
-/* buttons text color when mouse is on*/
-.start-button:hover{
-  color: #56CAF5;
-}
-/*footer*/
+/*footer. width %100 some styles and position is below the all pages*/
 footer {
   background-color: #3202FA;
   color: white;
@@ -119,16 +115,13 @@ footer {
   padding: 15px 0;
   width: 100%;
   font-size: 15px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 
 
 /* GALLERY CSS */
 /* It wraps the photos and design for the texts under photos*/
-
+/* blank between photos if bigger than size othe photo goes to other line below*/
 .gallery-sec {
   max-width: 850px;
   margin: 40px auto;
@@ -143,7 +136,7 @@ footer {
   gap: 20px;
   justify-content: center;
 }
-
+/* style of every photos box and background*/
 .imagebox {
   width: 250px;
   border: 2px solid #3202FA;
@@ -166,7 +159,7 @@ footer {
 
 /* contact form css */
 
-/* css */
+/*max width for form to avoid so long lines*/
 
 form {
   width: 100%;
@@ -180,10 +173,12 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
-
+/* form boxes style to see them nice, 3 boxes here can be changed corners are soft*/
 input[type="text"],
 input[type="email"],
 input[type="number"],
+input[type="age"],
+
 textarea {
   width: 100%;
   padding: 8px;
@@ -204,7 +199,7 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
-/* color changes when mouse is on the button */
+/*background color changes when button clicks */
 input[type="submit"]:hover {
   background-color: #274bd6;
 }
@@ -213,7 +208,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-/* self awarness css */
+/* self awareness info box style */
 
 .info-box {
   border: 1px solid #ccc;
@@ -224,7 +219,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-/* quiz css */
+/* quiz page question,answers style */
 .quiz-section {
   width: 70%;
   margin: 0 auto;
@@ -236,9 +231,10 @@ input[type="submit"]:hover {
   margin: 5px;
   padding: 10px 20px;
 }
-
+/* tip button style on pdev and selfaw pages*/
 .tip-section{
   text-align: center;
   font-weight: bold;
+  margin-bottom: 80px;
   }
 

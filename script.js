@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const email = document.getElementById("email").value.trim();
     const number = document.getElementById("number").value.trim();
     const message = document.getElementById("message").value.trim();
+    const age = document.getElementById("age").value.trim();
 
     // checks the inputs if they are on rule otherwise it gives error to user
     if (name === "" || name.length < 2) {
@@ -37,6 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (message === "" || message.length < 15) {
       alert("Please write a message with at least 15 characters");
+      return;
+    }
+    if (age === "" || isNaN(number)) {
+      alert("Please enter age with number");
       return;
     }
 
