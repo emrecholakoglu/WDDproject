@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    if (message === "" || message.length < 10) {
-      alert("Please write a message with at least 10 characters");
+    if (message === "" || message.length < 15) {
+      alert("Please write a message with at least 15 characters");
       return;
     }
 
